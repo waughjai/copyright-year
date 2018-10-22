@@ -21,8 +21,12 @@
 		'copyright-year',
 		function( $atts )
 		{
-			$year = TestHashItemExists( $atts, 'start', CopyrightYear::getCurrentYear() );
-			$divider = TestHashItemExists( $atts, 'divider', CopyrightYear::DEFAULT_DIVIDER );
-			return ( string )( new CopyrightYear( $year, $divider ) );
+			if ( is_array( $atts ) )
+			{
+				$year = TestHashItemExists( $atts, 'start', CopyrightYear::getCurrentYear() );
+				$divider = TestHashItemExists( $atts, 'divider', CopyrightYear::DEFAULT_DIVIDER );
+				return ( string )( new CopyrightYear( $year, $divider ) );
+			}
+			return ( string )( new CopyrightYear() );
 		}
 	);
