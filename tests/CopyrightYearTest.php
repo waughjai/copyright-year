@@ -11,10 +11,22 @@ class CopyrightYearTest extends TestCase
 		$this->assertEquals( $year->getCurrentYear(), $this->getCurrentYear() );
 	}
 
+	public function testEmptyYear() : void
+	{
+		$year = new CopyrightYear();
+		$this->assertEquals( $year->getText(), $this->getCurrentYear() );
+	}
+
 	public function testCurrentYear() : void
 	{
 		$year = new CopyrightYear( $this->getCurrentYear() );
 		$this->assertEquals( $year->getText(), $this->getCurrentYear() );
+	}
+
+	public function testYearAsString() : void
+	{
+		$year = new CopyrightYear( 1888 );
+		$this->assertEquals( ( string )( $year ), "1888 &ndash; {$this->getCurrentYear()}" );
 	}
 
 	public function testYearInterval() : void

@@ -11,7 +11,8 @@
     ],
     "type": "library",
     "require": {
-		"php": ">=7.2"
+		"php": ">=7.2",
+		"waughj/test-hash-item": ">=1.0.0"
     },
     "require-dev": {
 		"phpunit/phpunit": "6.*"
