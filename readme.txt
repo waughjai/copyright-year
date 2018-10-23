@@ -1,5 +1,12 @@
-Copyright Year
-=========================
+=== WAJ Copyright Year ===
+Contributors: waughjai
+Tags: copyright, year, footer, auto-update, new year
+Requires at least: 4.6
+Tested up to: 4.9.8
+Stable tag: 1.0.0
+Requires PHP: 7.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Simple class for handling auto-updating copyright year in website footers.
 
@@ -23,7 +30,7 @@ You can also set a custom divider if you want the interval sign to look differen
 2. Activate the plugin through the 'Plugins' screen in WordPress
 3. Copyright year can be directly added to PHP files by creating an instance o' the \WaughJ\CopyrightYear\CopyrightYear class & using it like a string or calling the "getText()". Optional arguments to its constructor are 1st the starting year o' your website & 2nd the divider you want 'tween the start year & current year if they are different. The defaults for these, respectively, are the current year & a hyphen with spaces round it.
 
-If using WordPress, you can also add a copyright year to a WordPress document using a shortcode. Add [copyright-year] to add the current year & [copyright-year start="%year%" divider="%divider%"] with %year% replaced by the starting year & %divider% replaced by the divider that appears 'tween the start & current year if they are different.
+You can also add a copyright year to a WordPress document using a shortcode. Add [copyright-year] to add the current year & [copyright-year start="%year%" divider="%divider%"] with %year% replaced by the starting year & %divider% replaced by the divider that appears 'tween the start & current year if they are different.
 
 
 == Example ==

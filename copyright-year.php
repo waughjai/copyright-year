@@ -1,6 +1,6 @@
 <?php
 	/*
-	Plugin Name:  Autoupdating Copyright Year
+	Plugin Name:  WAJ Copyright Year
 	Plugin URI:   https://github.com/waughjai/copyright-year
 	Description:  Simple plugin for handling auto-updating copyright year in website footers.
 	Version:      1.0.0
