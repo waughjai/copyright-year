@@ -8,7 +8,7 @@
 	Author URI:   https://www.jaimeson-waugh.com
 	License:      GPL2
 	License URI:  https://www.gnu.org/licenses/gpl-2.0.html
-	Text Domain:  copyright-year
+	Text Domain:  waj-copyright-year
 	*/
 
 	require_once( 'vendor/autoload.php' );

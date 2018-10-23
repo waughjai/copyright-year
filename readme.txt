@@ -1,7 +1,7 @@
 === WAJ Copyright Year ===
 Contributors: waughjai
 Tags: copyright, year, footer, auto-update, new year
-Requires at least: 4.6
+Requires at least: 4.9.8
 Tested up to: 4.9.8
 Stable tag: 1.0.0
 Requires PHP: 7.0
