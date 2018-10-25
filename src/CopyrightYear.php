@@ -5,7 +5,7 @@ namespace WaughJ\CopyrightYear
 {
 	class CopyrightYear
 	{
-		public function __construct( ?int $initial_year = null, string $interval = self::DEFAULT_DIVIDER )
+		public function __construct( int $initial_year = null, string $interval = self::DEFAULT_DIVIDER )
 		{
 			$this->initial_year = ( $initial_year === null ) ? self::getCurrentYear() : $initial_year;
 			$this->interval = $interval;
