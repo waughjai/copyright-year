@@ -37,7 +37,7 @@ namespace WaughJ\CopyrightYear
 			return intval( date( 'Y' ) );
 		}
 
-		public const DEFAULT_DIVIDER = ' &ndash; ';
+		const DEFAULT_DIVIDER = ' &ndash; ';
 
 		private $initial_year;
 		private $interval;
