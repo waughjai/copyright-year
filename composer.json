@@ -2,7 +2,7 @@
     "name": "waughj/copyright-year",
     "description": "Simple class for handling auto-updating copyright year in website footers.",
     "keywords": [ "copyright", "year", "footer", "auto-update", "new year" ],
-    "license": "GPL-2.0-or-later",
+    "license": "AGPL-3.0-or-later",
     "authors": [
         {
             "name": "Jaimeson Waugh",
@@ -11,11 +11,11 @@
     ],
     "type": "library",
     "require": {
-		"php": ">=7.0",
+		"php": ">=7.2",
 		"waughj/test-hash-item": ">=1.0.1"
     },
     "require-dev": {
-		"phpunit/phpunit": "6.*"
+		"phpunit/phpunit": "*"
     },
     "autoload": {
         "psr-4": {

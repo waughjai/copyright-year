@@ -3,7 +3,6 @@ Copyright Year
 
 Simple class for handling auto-updating copyright year in website footers.
 
-
 ## Description
 
 Adds copyright year or interval o' years where desired. By default, it just shows the current year, as specified by the server ( which is hopefully keeping accurate track o' time ). Optionally, you can include a start year. If the start year is different from the current year, then it will show an interval 'tween the start year & current year.
@@ -46,6 +45,9 @@ This will print the message, "Copyright Jaimeson Waugh © 2015-2018."
 
 
 ## Changelog
+
+### 2.0
+* Make independent from WordPress.
 
 ### 1.0
 * Initial stable version.

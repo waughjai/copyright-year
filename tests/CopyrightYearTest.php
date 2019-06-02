@@ -26,20 +26,20 @@ class CopyrightYearTest extends TestCase
 	public function testYearAsString() : void
 	{
 		$year = new CopyrightYear( 1888 );
-		$this->assertEquals( ( string )( $year ), "1888 &ndash; {$this->getCurrentYear()}" );
+		$this->assertEquals( ( string )( $year ), "1888 – {$this->getCurrentYear()}" );
 	}
 
 	public function testYearInterval() : void
 	{
 		$random_number = rand( 0, $this->getCurrentYear() - 1 );
 		$year = new CopyrightYear( $random_number );
-		$this->assertEquals( $year->getText(), "{$random_number} &ndash; {$this->getCurrentYear()}" );
+		$this->assertEquals( $year->getText(), "{$random_number} – {$this->getCurrentYear()}" );
 	}
 
 	public function testStringYear() : void
 	{
 		$string_year = new CopyrightYear( '1888' );
-		$this->assertEquals( $string_year->getText(), "1888 &ndash; {$this->getCurrentYear()}" );
+		$this->assertEquals( $string_year->getText(), "1888 – {$this->getCurrentYear()}" );
 	}
 
 	public function testInitialYear() : void
