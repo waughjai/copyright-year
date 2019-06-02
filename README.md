@@ -29,16 +29,15 @@ If using WordPress, you can also add a copyright year to a WordPress document us
 <?php
 
 declare( strict_types = 1 );
-namespace MyTheme\FooterTemplate
-{
-	use \WaughJ\CopyrightYear\CopyrightYear;
+namespace MyTheme\FooterTemplate;
 
-	?>
-		<footer class="footer">
-			<p>Copyright Jaimeson Waugh &copy; <?= new CopyrightYear( 2015, '-' ); ?>.</p>
-		</footer>
-	<?php
-}
+use \WaughJ\CopyrightYear\CopyrightYear;
+
+?>
+	<footer class="footer">
+		<p>Copyright Jaimeson Waugh &copy; <?= new CopyrightYear( 2015, '-' ); ?>.</p>
+	</footer>
+<?php
 ````
 
 This will print the message, "Copyright Jaimeson Waugh © 2015-2018."
